@@ -38,3 +38,15 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "Landing pages"
+    label: "Landing page"
+    folder: "landing-pages"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Hero"
+        name: "Hero"
+        widget: "object"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Sub Title", name: "subtitle", widget: "string" }

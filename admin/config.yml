@@ -39,7 +39,7 @@ collections:
   - name: "pages"
     label: "Page"
     folder: "pages"
-    i18n: true
+    i18n: false
     create: true
     slug: "{{slug}}"
     fields:
